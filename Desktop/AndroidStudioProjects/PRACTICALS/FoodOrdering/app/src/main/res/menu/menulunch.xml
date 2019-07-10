@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.swapniltamrkar.foodordering.Lunch">
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="10"
+        android:title="HOME"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/breakfast"
+        android:orderInCategory="20"
+        android:title="BreakFast"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/lunch"
+        android:orderInCategory="30"
+        android:title="Lunch"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/dinner"
+        android:orderInCategory="50"
+        android:title="Dinner"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/checkout"
+        android:orderInCategory="10"
+        android:title="Checkout"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>

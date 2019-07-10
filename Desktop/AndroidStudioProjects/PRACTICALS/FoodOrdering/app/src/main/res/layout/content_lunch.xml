@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Lunch"
+    tools:showIn="@layout/activity_lunch"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ITEM"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Roti"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mix veg"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shaahi Paneer"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dal"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rice"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mushroom"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paneer masala"
+                    android:textSize="18dp"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRICE"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="QUANTITY"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="0"
+                    android:textSize="15dp"
+                    android:id="@+id/roti"
+                    />
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="0"
+                    android:textSize="15dp"
+                    android:id="@+id/mixveg"
+                    />
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="0"
+                    android:textSize="15dp"
+                    android:id="@+id/shaahipaneer"
+                    />
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="0"
+                    android:textSize="15dp"
+                   android:id="@+id/dal"
+                    />
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="0"
+                    android:textSize="15dp"
+                    android:id="@+id/rice"
+                    />
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="0"
+                    android:textSize="15dp"
+                    android:id="@+id/mushroom"
+                    />
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="0"
+                    android:textSize="15dp"
+                    android:id="@+id/paneermasala"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMI"
+        android:background="@color/black"
+        android:textColor="@color/white"
+
+
+        />
+</LinearLayout>

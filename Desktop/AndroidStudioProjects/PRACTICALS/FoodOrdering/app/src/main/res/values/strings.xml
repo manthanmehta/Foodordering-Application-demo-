@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoodOrdering</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_breakfast">Breakfast</string>
+    <string name="title_activity_break_fast">BreakFast</string>
+    <string name="ha">hello </string>
+    <string name="title_activity_lunch">Lunch</string>
+    <string name="title_activity_dinner">Dinner</string>
+</resources>
